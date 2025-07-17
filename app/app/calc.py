@@ -1,8 +1,11 @@
-"""
-simple add func to test tests in django
-"""
-def add(x,y):
-      return x+y
+"""Utility math functions used by the app."""
 
-def sub(x,y):
-      return x-y
+
+def add(x: int, y: int) -> int:
+    """Return the sum of x and y."""
+    return x + y
+
+
+def sub(x: int, y: int) -> int:
+    """Return the result of x minus y."""
+    return x - y
